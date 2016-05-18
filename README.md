@@ -36,7 +36,7 @@ Open some file, its prefer a word file, view this header and search 64 bytes rep
 It more probable this is your key. Caution your first block not is the key.
 example:
 
-![Extraccion Key](https://raw.githubusercontent.com/pekeinfo/DecryptCrypren/master/src/HowToExtracKey.png "Extract key")
+![Extraccion Key](https://github.com/mlwre/DecryptCrypren/blob/master/src/HowToExtracKey.png?raw=true"Extract key")
 
 ## Use Program
 This program is only for one file. but i am working for multiple files.
@@ -57,4 +57,4 @@ lab@lab-Infeccion:~/Documentos/DecryptCrypren$ ./Decrypt ransom/key.txt ransom/p
  -------------------------------------------------
  ransom/photo_2016-05-12_14-01-27.jpg.ENCRYPTED.decrypt
 ```
-![Example](https://raw.githubusercontent.com/pekeinfo/DecryptCrypren/master/src/Example.png "Example")
+![Example](https://github.com/mlwre/DecryptCrypren/blob/master/src/Example.png?raw=true "Example")
