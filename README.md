@@ -36,13 +36,11 @@ The key is an array of 64 ASCII printable chars matching the next conditions:
 
 As a key example: `lHMtMQHegfRomgQvLDpBVjNYpcTaIXKJ!3+8,$@*5?;.+3#+@@232.$#024085.6` .
 
-### Decrypting Docx files
+### Decrypting DOCX files
 
-Open a Microsoft WORD file and locate the header section. The key may be revealed as a pattern of 64 bytes repeating across the file header.
+Open a Microsoft WORD `.docx` file and locate the header section. Given this Ransomware uses a simple shift cipher the key may be easily revealed in those encrypted data blocks which happened to be originally zero.
 
-Finding this pattern most likely means you have found your key, but be caution though and skip the first block, as this is not the key you're looking for.
-
-Find below a key extraction example:
+Therefore, you may identify your key as a pattern of 64 bytes repeating across the file header as shown below:
 
 ![Extraccion Key](https://github.com/mlwre/DecryptCrypren/blob/master/src/HowToExtracKey.png?raw=true"Extract key")
 
