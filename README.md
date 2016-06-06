@@ -2,7 +2,7 @@
 
 File decryption for those affected by the Crypren Ransomware.
 
-## Sample Details
+## PE Hash
 
 | Name       | Hash           |
 | ------------- |-------------:|
@@ -29,10 +29,12 @@ rule Ransom : Crypren{
 
 ## How To Get the Key
 
-The key is an array of 64 ASCII printable chars, such as: `lHMtMQHegfRomgQvLDpBVjNYpcTaIXKJ!3+8,$@*5?;.+3#+@@232.$#024085.6`, matching the next conditions:
+The key is an array of 64 ASCII printable chars matching the next conditions:
 
 * The first 32 bytes are alphabetic ASCII chars
 * The second 32 bytes are any possible ASCII char
+
+As a key example: `lHMtMQHegfRomgQvLDpBVjNYpcTaIXKJ!3+8,$@*5?;.+3#+@@232.$#024085.6` .
 
 ### Decrypting Docx files
 
